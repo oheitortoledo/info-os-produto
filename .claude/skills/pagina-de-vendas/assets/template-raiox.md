@@ -46,7 +46,7 @@
 
 ## Regras que saem daqui
 
-- **Seção → formato**: [ex.: S5 virou balões; S3 virou cards com ✕; S8 virou VERSUS]
+- **Seção → formato**: [ex.: S5 virou balões; S3 virou cards com ✕; S8 virou COMPARATIVO]
 - **Posição**: [onde cada família de seção foi usada — topo = ângulo, base = máquina de conversão]
 
 ---

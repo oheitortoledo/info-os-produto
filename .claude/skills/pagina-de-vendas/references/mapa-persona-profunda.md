@@ -215,7 +215,7 @@ Exemplo prático — bloco "Antes × Depois" de duas colunas:
 **Contém**: o vilão primário e os secundários + a narrativa de transferência de culpa.
 
 **Vira na página**:
-- Bloco **VERSUS** de duas colunas com "VS" no meio
+- Bloco **COMPARATIVO** de duas colunas com "VS" no meio
 - Coluna "o que quase todo mundo faz" numa tabela de diagnóstico
 - Bloco de "erros" ("planta quase nunca morre de doença, morre de erro pequeno")
 - Qualquer parágrafo que diga alguma variação de **"a culpa não é sua"**

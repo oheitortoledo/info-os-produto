@@ -55,7 +55,7 @@ Quando você analisar várias páginas do mesmo produto, é essa divisão que ex
 | **Lista de sintomas** | Cards com ✕, itens curtos e concretos | **S3** | S2 |
 | **Lista de erros** | "você faz X e isso é errado" | S8 | S2, S3 |
 | **Tabela de diagnóstico** | 3 colunas: vê / faz / é de verdade | S3 + S8 + S2 | — |
-| **VERSUS** | Duas colunas com "VS" no meio | **S8** | S4.2, S10 |
+| **COMPARATIVO** | Duas colunas com "VS" no meio | **S8** | S4.2, S10 |
 | **Antes × Depois** | Duas colunas, cinza vs colorida | **S6** | S8, S4.1 |
 | **Ponte** | Fundo escuro, "passa um mês", "mas e se…" | S4.3 | S9.1, S4.1 |
 | **Apresentação do produto** | Eyebrow "Apresentando" + nome + pilares | S2 | S4.2, S10 |
@@ -86,7 +86,7 @@ A posição 04 (entre o problema e a ponte) é onde as páginas se diferenciam. 
 | Bloco-assinatura | Ângulo que ele instala | Seção que ele banca |
 |---|---|---|
 | Tabela sintoma × causa | "você trata o sintoma errado" | S3 → S2 |
-| VERSUS de duas colunas | "a alternativa atual te sabota" | S8 |
+| COMPARATIVO de duas colunas | "a alternativa atual te sabota" | S8 |
 | Linha do tempo / calendário | "cada dia parado custa" | S4.3 |
 | Demonstração do mecanismo | "existe um jeito novo" | S2 |
 | Mito × verdade | "o que te ensinaram está errado" | S8 + S9.1 |

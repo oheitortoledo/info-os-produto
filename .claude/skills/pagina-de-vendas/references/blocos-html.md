@@ -10,7 +10,7 @@ Todos os componentes usam as classes já definidas em `assets/wireframe-base.htm
 - [Hero / Gancho](#hero--gancho)
 - [S5 → Balões](#s5--balões)
 - [S3 → Cards de sintoma](#s3--cards-de-sintoma)
-- [S8 → Erros / VERSUS / Tabela de diagnóstico](#s8--erros--versus--tabela-de-diagnóstico)
+- [S8 → Erros / COMPARATIVO / Tabela de diagnóstico](#s8--erros--comparativo--tabela-de-diagnóstico)
 - [S6 → Antes × Depois e Duas escolhas](#s6--antes--depois-e-duas-escolhas)
 - [S4.2 → Promessas e cards de benefício](#s42--promessas-e-cards-de-benefício)
 - [S2 → Pilares / mecanismo](#s2--pilares--mecanismo)
@@ -30,7 +30,7 @@ Todos os componentes usam as classes já definidas em `assets/wireframe-base.htm
 **O comentário acima de cada bloco carrega a rastreabilidade.** Formato fixo:
 
 ```html
-<!-- ══ 04 · VERSUS ══ | motor: S8 (vilão primário, 166 menções, Forte) · suporte: S4.2 | verbatim: "cada vídeo fala uma coisa diferente" (E#12) -->
+<!-- ══ 04 · COMPARATIVO ══ | motor: S8 (vilão primário, 166 menções, Forte) · suporte: S4.2 | verbatim: "cada vídeo fala uma coisa diferente" (E#12) -->
 ```
 
 Não aparece no navegador e viaja junto com o arquivo. É o que permite alguém contestar um bloco com precisão seis meses depois.
@@ -114,7 +114,7 @@ Itens curtos, concretos, observáveis. Sem emoção — a emoção é S4.1 e ent
 
 ---
 
-## S8 → Erros / VERSUS / Tabela de diagnóstico
+## S8 → Erros / COMPARATIVO / Tabela de diagnóstico
 
 Três formatos para o mesmo trabalho: transferir a culpa do leitor para o vilão. Escolha pela natureza do vilão.
 
@@ -127,7 +127,7 @@ Três formatos para o mesmo trabalho: transferir a culpa do leitor para o vilão
 <p class="lead mt40 center">[parágrafo que nomeia a causa real e tira a culpa dele]</p>
 ```
 
-**VERSUS** — quando existe uma alternativa concreta que ele já usa (pesquisar no Google, o método antigo, o concorrente genérico). 5 a 6 linhas de cada lado, **pareadas**: a linha 3 da esquerda responde à linha 3 da direita.
+**COMPARATIVO** — quando existe uma alternativa concreta que ele já usa (pesquisar no Google, o método antigo, o concorrente genérico). 5 a 6 linhas de cada lado, **pareadas**: a linha 3 da esquerda responde à linha 3 da direita.
 
 ```html
 <div class="vs mt40">
