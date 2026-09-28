@@ -1,0 +1,17 @@
+# Sistema
+.DS_Store
+__pycache__/
+
+# Mídia pesada baixada pelas skills (vídeos, imagens, material bruto)
+infoproduto/criativos/biblioteca-anuncios/**/midia/
+infoproduto/criativos/biblioteca-anuncios/**/_bruto/
+infoproduto/criativos/biblioteca-anuncios/**/_trabalho/
+infoproduto/funil/pagina-de-vendas/**/imgs/
+
+# Dependências instaladas pelo aluno (Playwright etc.)
+node_modules/
+package-lock.json
+
+# Arquivos de trabalho da /identidade-visual (apagados ao fechar o DESIGN.md)
+marca/_leitura*
+marca/_referencia-*

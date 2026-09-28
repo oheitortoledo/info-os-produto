@@ -1,0 +1,26 @@
+{
+  "skill_name": "pesquisa-mercado",
+  "evals": [
+    {
+      "id": 0,
+      "name": "modo-direto-produto-proprio",
+      "prompt": "/pesquisa-mercado quero pesquisar o mercado do meu curso de violão pra adultos que nunca tocaram",
+      "expected_output": "Faz no máximo 3 perguntas curtas numa mensagem só (só o que faltou: público/promessa e se é produto próprio ou de cliente), sem jargão (nada de VoC, TAM, corpus). Depois roda os 5 módulos e salva em infoproduto/alicerce-do-copy/pesquisa-de-mercado/01-corpus-bruto.md e 02-pesquisa-lapidada.md. Blacklist de nicho musical aplicada. Módulo 5 enxuto (sem preço/landing).",
+      "assertions": []
+    },
+    {
+      "id": 1,
+      "name": "modo-briefing-cliente",
+      "prompt": "BRIEFING\n- Nicho: gestão e vendas de clínica veterinária\n- Produto: curso online de gestão para donos de clínica\n- Público: veterinário 30-50 anos dono ou sócio de clínica\n- Promessa: clínica lucrativa sem depender de plantão do dono\n- Concorrentes conhecidos: (não informado)\n- Pasta de saída: infoproduto/alicerce-do-copy/pesquisa-de-mercado/",
+      "expected_output": "Não faz nenhuma pergunta, não abre arquivo. Roda até o fim, escreve os dois arquivos na pasta do briefing e devolve só o resumo curto (arquivos + modo + 5 achados + lacunas). Módulo 3 com dados setoriais (SEBRAE/CFMV), não epidemiologia. Nicho B2B: descrição dos vídeos com mais peso que comentários.",
+      "assertions": []
+    },
+    {
+      "id": 2,
+      "name": "modo-degradado-sem-ytdlp",
+      "prompt": "BRIEFING\n- Nicho: confeitaria para vender em casa\n- Produto: curso de bolos no pote\n- Público: mulheres 25-45 buscando renda extra\n- Promessa: primeira venda em 15 dias\n- Pasta de saída: infoproduto/alicerce-do-copy/pesquisa-de-mercado/\n(Ambiente de teste: yt-dlp não instalado.)",
+      "expected_output": "check devolve MODO=DEGRADADO; a skill não trava nem tenta instalar, segue com WebSearch/WebFetch nos módulos 1, 4 e 5, e registra no header do 01 e na seção 'Limitações desta rodada' do 02 o que ficou de fora. Se já existir 01-corpus-bruto.md na pasta, salva como -v2.",
+      "assertions": []
+    }
+  ]
+}
